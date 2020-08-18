@@ -1,0 +1,61 @@
+h1 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: rgba(238, 4, 4, 0.849);
+}
+a:active {
+    color: rgb(0, 236, 253);
+}
+body {
+    font-family: Consolas,monaco,monospace;
+    max-width: 45em;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bluebox {
+    border: 2px solid dodgerblue;
+    margin: 1em;
+    padding: 1em;
+}
+
+.yellowbox {
+    border: 2px solid gold;
+    margin: 1em;
+    padding: 1em;
+}
+
+page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+li {
+    color: white;
+    list-style: none;
+}
+li::before{
+    content: "\00BB";
+}
+
